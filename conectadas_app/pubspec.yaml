@@ -1,5 +1,5 @@
 name: conectadas_app
-description: "A new Flutter project."
+description: "Projeto Elas Conectadas"
 publish_to: 'none'
 version: 0.1.0
 
@@ -9,11 +9,39 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  carousel_slider: ^5.0.0
+  adaptive_theme: ^3.5.0
+  uuid: ^4.4.2
+  url_launcher: ^6.2.1
+  fluttertoast: ^8.2.8
+  cupertino_icons: ^1.0.6
+  http: ^1.2.2
+  image_picker: ^1.1.2
+  intl: ^0.19.0
+  image: ^4.2.0
+  path: ^1.9.0
+  shared_preferences: ^2.2.3
+  extended_text: ^5.0.0
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^4.0.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  #image_path: "assets/images/icon.png"
 
 flutter:
   uses-material-design: true
+
+  assets:
+    - assets/
+    #images/
+
+#  fonts:
+#    - family: Roboto
+#      fonts:
+#        - asset: assets/fonts/Roboto-Regular.ttf
