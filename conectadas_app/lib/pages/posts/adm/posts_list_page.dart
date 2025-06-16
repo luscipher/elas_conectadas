@@ -116,13 +116,6 @@ class _PostsListPageState extends State<PostsListPage> {
                   SingleChildScrollView(
                     child: Column(
                       children: [
-                        PostCard(
-                          imgUrl: 'assets/event1.jpg',
-                          title: 'GeniusCon',
-                          onTap: () {  },
-                        ),
-
-
                       ],
                     ),
                   ),

@@ -1,5 +1,5 @@
-import 'package:conectadas_app/pages/posts/adm/create_posts.dart';
 import 'package:conectadas_app/pages/posts/user/ads_page.dart';
+import 'package:conectadas_app/pages/posts/user/create_ads.dart';
 import 'package:conectadas_app/service/auth_service.dart';
 import 'package:conectadas_app/widgets/common/bottom_bar.dart';
 import 'package:conectadas_app/widgets/common/custom_header.dart';
@@ -98,26 +98,7 @@ class _HomePageState extends State<HomePage> {
                             ),);
                           },
                         ),
-                        CardItem(
-                          imgUrl: 'assets/placeholder08.jpg',
-                          title: 'Diarista',
-                          desc: 'Limbpeza de casa completa',
-                          onTap: () {
-                            Navigator.of(context).push(MaterialPageRoute(
-                              builder: (context) => const AdsPage(),
-                            ),);
-                          },
-                        ),
-                        CardItem(
-                          imgUrl: 'assets/placeholder02.jpg',
-                          title: 'Manicure',
-                          desc: 'Unhas decoradas',
-                          onTap: () {
-                            Navigator.of(context).push(MaterialPageRoute(
-                              builder: (context) => const AdsPage(),
-                            ),);
-                          },
-                        ),
+                        
                       ],
                     ),
                   ),
@@ -151,7 +132,7 @@ class _HomePageState extends State<HomePage> {
       floatingActionButton: isButtonVisible
           ? CustomFloatingActionButton(
               context: context,
-              destinationScreen: const PostCreationPage(),
+              destinationScreen: const AdCreationPage(),
               isVisible: true,
             )
           : null,

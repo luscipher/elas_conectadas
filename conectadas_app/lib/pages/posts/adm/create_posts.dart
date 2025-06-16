@@ -23,6 +23,37 @@ class _PostCreationPageState extends State<PostCreationPage> {
   PostType? _selectedType;
   final PostService postService = PostService();
 
+   /*File? _image;
+  final picker = ImagePicker();
+  Future _getImage() async {
+    final pickedFile = await picker.pickImage(source: ImageSource.gallery);
+    setState(() {
+      if (pickedFile != null) {
+        _image = File(pickedFile.path);
+      }
+    });
+  }*/
+
+
+
+  /*Future<void> createPost() async {
+    final title = _titleController.text;
+    final content = _contentController.text;
+    final postType = _postTypeController.text;
+
+    bool response = await apiService.createAd(title, content, postType);
+    
+    if (response) {
+      Navigator.pop(context);
+    } else {
+      ScaffoldMessenger.of(context).showSnackBar(
+        const SnackBar(
+          content: Text('Erro ao criar anúncio'),
+        ),
+      );
+    }
+  }*/
+
   void createPost() async {
   String title = _titleController.text;
   String content = _contentController.text;
@@ -98,6 +129,29 @@ class _PostCreationPageState extends State<PostCreationPage> {
                   'Adicione',
                   style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
                 ),
+
+                /*Column( children: [
+                  GestureDetector(
+                    onTap: _getImage,
+                    child: Container(
+                      width: 130.0, height: 130.0,
+                      decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(10.0),
+                        border: Border.all(
+                          color: const Color.fromARGB(255, 192, 152, 238),
+                          width: 2.0,
+                        ),
+                      ),
+                      child: _image == null ? const Icon(
+                        Icons.camera_alt,
+                        size: 50.0,
+                        color:  Color.fromARGB(255, 192, 152, 238),
+                      ): Image.file(_image!),
+                    ),
+                  ),
+                ],),*/
+
+                
                 const SizedBox(height: 20.0),
                 CustomTextField(controller: _titleController, label: 'Título'),
                 const SizedBox(height: 10.0),
