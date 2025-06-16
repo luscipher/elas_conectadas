@@ -14,12 +14,13 @@ O projeto visa promover a inclusão digital e o empoderamento feminino por meio 
 ## 📱 Funcionalidades
 
 - Registro e login de usuárias
-    ![Registro](https://github.com/luscipher/elas_conectadas/blob/main/conectadas_app/assets/interfaces/interface%20registro.png)
-    ![Login](https://github.com/luscipher/elas_conectadas/blob/main/conectadas_app/assets/interfaces/interface%20login.png)
 - Perfil personalizado com dados do empreendimento
-    ![Perfil](https://github.com/luscipher/elas_conectadas/blob/main/conectadas_app/assets/interfaces/interface%20profile.png)
 - Módulo de cursos e conteúdos educativos
-    ![Posts](https://github.com/luscipher/elas_conectadas/blob/main/conectadas_app/assets/interfaces/interface%20posts.png)
 - Mural de divulgação de produtos/serviços
-    ![Mural](https://github.com/luscipher/elas_conectadas/blob/main/conectadas_app/assets/interfaces/interface%20home.png)
 - Conexões entre usuárias e troca de experiências
+
+![Registro](https://github.com/luscipher/elas_conectadas/blob/main/conectadas_app/assets/interfaces/interface%20registro.png)
+![Login](https://github.com/luscipher/elas_conectadas/blob/main/conectadas_app/assets/interfaces/interface%20login.png)
+![Perfil](https://github.com/luscipher/elas_conectadas/blob/main/conectadas_app/assets/interfaces/interface%20profile.png)
+![Posts](https://github.com/luscipher/elas_conectadas/blob/main/conectadas_app/assets/interfaces/interface%20posts.png)
+![Mural](https://github.com/luscipher/elas_conectadas/blob/main/conectadas_app/assets/interfaces/interface%20home.png)
